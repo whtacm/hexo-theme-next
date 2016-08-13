@@ -106,8 +106,10 @@ donate:
   wechat: http://o7keinrz4.bkt.clouddn.com/wechat.jpg
   alipay: http://o7keinrz4.bkt.clouddn.com/alipay.jpg
 
-# disqus auto loading
-disqus_load: false
+# disqus load config
+disqus_info: 
+  auto_load: false  # if true disqus will be load default
+  duoshuo_shortname: idhyt  # if google forbid then load duoshuo
 
 # 不蒜子统计
 busuanzi: false
