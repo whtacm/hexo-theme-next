@@ -109,6 +109,7 @@ donate:
 # disqus load config
 disqus_info: 
   auto_load: false  # if true disqus will be load default
+  disqus_false_text: Disqus评论可能被墙，尝试加载多说。
   duoshuo_shortname: idhyt  # if google forbid then load duoshuo
 
 # 不蒜子统计

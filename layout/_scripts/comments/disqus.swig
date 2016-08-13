@@ -69,11 +69,17 @@
 
         // var disqus_loaded = false;
 
+        var disqus_false_text = "Disqus评论可能被墙";
+
+        {% if theme.disqus_info.disqus_false_text %}
+              disqus_false_text = "{{ theme.disqus_info.disqus_false_text }}";
+        {% endif %}
+        
         var show_btn = 
           '<div class="show-commit-cls">  \
             <a id="show_commit_btn" class="show-commit-btn" href="javascript:;" title="评论">评论/查看评论</a>  \
-            <div id="show_commit_dsp" class="show-commit-dsp"> Disqus评论可能被墙</div> \
-          </div>';
+            <div id="show_commit_dsp" class="show-commit-dsp"> ' + disqus_false_text + 
+            '</div> </div>';
         var t_comments = document.getElementById("comments");
         t_comments.insertAdjacentHTML("beforeBegin", show_btn);
 
