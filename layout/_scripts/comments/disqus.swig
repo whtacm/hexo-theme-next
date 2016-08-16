@@ -1,3 +1,4 @@
+{% if page.comments %}
 {% if not (theme.duoshuo and theme.duoshuo.shortname) and not theme.duoshuo_shortname %}
 
   {% if theme.disqus_shortname %}
@@ -108,7 +109,7 @@
               if ($('.show-commit-dsp').css("display") == "none") {
                 $('.show-commit-dsp').show(1500);
               }
-
+              
               // if google forbid then load duoshuo
               if (duoshuo_shortname) {
                 (function() {
@@ -139,5 +140,7 @@
     {% endif %}
 
   {% endif %}
+
+{% endif %}
 
 {% endif %}
