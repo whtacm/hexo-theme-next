@@ -29,7 +29,7 @@ icon_font: default
 # Code Highlight theme
 # Available value: normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: night
+highlight_theme: night bright
 
 
 # MathJax Support
@@ -73,6 +73,10 @@ duoshuo_info: # give up duoshuo
   admin_enable: false
   user_id: 0
 
+# duoshuo comment,https://github.com/iissnan/hexo-theme-next/wiki/%E8%AE%BE%E7%BD%AE%E5%A4%9A%E8%AF%B4-DISQUS
+# 后来添加的多说评论功能
+duoshuo_shortname: whtacm
+
 # share server
 # JiaThis share
 jiathis: false
@@ -83,7 +87,7 @@ duoshuo_share: false # give up duoshuo
 duoshuo_hotartical: false # give up duoshuo
 
 # baidu share
-baidu_share: true
+baidu_share: false
 
 ## DO NOT EDIT THE FOLLOWING SETTINGS
 ## UNLESS YOU KNOW WHAT YOU ARE DOING
@@ -92,12 +96,13 @@ baidu_share: true
 use_motion: true
 
 # Fancybox
+#  Fancybox是一款优秀的jquery插件,它能够展示丰富的弹出层效果, 查看图片时候的弹出效果
 fancybox: true
 
 # Some suprise plugs
 suprise:
-  ball: true
-  assist: true
+  ball: false # 首页动画
+  assist: true # 首页主题色转换圆形按钮
 
 # donate
 donate:
