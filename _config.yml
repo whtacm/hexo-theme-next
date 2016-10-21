@@ -44,7 +44,9 @@ scheme: Mala
 #  - post    expand on posts automatically. Default.
 #  - always  expand for all pages automatically
 #  - hide    expand only when click on the sidebar toggle icon.
-sidebar: post
+sidebar:
+  display: post
+  position: left
 #sidebar: always
 #sidebar: hide
 
@@ -107,9 +109,9 @@ suprise:
 # donate
 donate:
   enable: true
-  text: 仅仅是一个功能
-  wechat: http://o7keinrz4.bkt.clouddn.com/wechat.jpg
-  alipay: http://o7keinrz4.bkt.clouddn.com/alipay.jpg
+  text: 请我喝杯茶
+  wechat: http://ofdub8np7.bkt.clouddn.com/pay/wechat.png
+  alipay: http://ofdub8np7.bkt.clouddn.com/pay/alipay.png
 
 # 不蒜子统计
 busuanzi: false
@@ -119,6 +121,19 @@ vendors: vendors
 css: css
 js: js
 images: images
+
+# title
+links_title: Links
+links:
+  Hexo: https://hexo.io/
+  NexT: http://theme-next.iissnan.com/getting-started.html
+
+# 文章阅读量统计,leancloud
+# http://theme-next.iissnan.com/getting-started.html#leanclound-page-views
+leancloud_visitors:
+  enable: true
+  app_id: WWow7D6zvFq0jVVua38dbx3J-gzGzoHsz
+  app_key: v7DfqjtpfT8e8aPkKyQDIBDi
 
 # Theme version
 version: 0.4.5.1
