@@ -10,14 +10,14 @@ menu:
 # 设定菜单项的图标，对应的字段是 menu_icons。 此设定格式是 item name: icon name，
 # 其中 item name 与上一步所配置的菜单名字对应，icon name 是 Font Awesome 图标的 名字。
 # 而 enable 可用于控制是否显示图标，你可以设置成 false 来去掉图标。
-menu_icons:
-  enable: true
+# menu_icons:
+  # enable: false
   # Icon Mapping.
-  home: home
-  about: user
-  categories: th
-  tags: tags
-  archives: archive
+  # home: home
+  # about: user
+  # categories: th
+  # tags: tags
+  # archives: archive
   #commonweal: heartbeat
 
 # Place your favicon.ico to /source directory.
@@ -42,7 +42,7 @@ icon_font: default
 # Code Highlight theme
 # Available value: normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: night bright 
+highlight_theme: night bright
 
 
 # MathJax Support
