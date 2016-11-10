@@ -42,7 +42,7 @@ icon_font: default
 # Code Highlight theme
 # Available value: normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: night bright
+highlight_theme: night eighties
 
 
 # MathJax Support
@@ -127,7 +127,7 @@ donate:
   alipay: http://ofdub8np7.bkt.clouddn.com/pay/alipay.png
 
 # 不蒜子统计
-busuanzi: true
+busuanzi: false
 
 # Static files
 vendors: vendors
